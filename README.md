@@ -1,2 +1,2 @@
 # Smart Wallet
-Smart wallet impemented with ERC-3340 
+Smart wallet impemented with ERC-4337
