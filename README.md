@@ -1,10 +1,4 @@
-<div align="center">
-  <h1 align="center">SoulWallet Contracts</h1>
-</div>
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/proofofsoulprotocol/soul-wallet-packages/main/src/assets/logo.svg">
-</div>
+# Smart Wallet: Multi-function wallet with ERC-4337
 
 ## Features
 + Support [ERC-4337: Account Abstraction](https://eips.ethereum.org/EIPS/eip-4337)
