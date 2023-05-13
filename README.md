@@ -10,14 +10,14 @@
 
 Below is a brief overview of the repository contracts
 
-### SoulWalletFactory
+### SmartWalletFactory
 
 "SoulWalletFactory" is a factory contract. It is used to create a new wallet contract. The wallet contract is created using the singleton contract with the CREATE2 opcode, which allows the wallet contract to be created with a deterministic address.
 
-### SoulWalletProxy
+### SmartWalletProxy
 "SoulWalletProxy" is a proxy contract that manages the implementation contract address and is responsible for forwarding delegate calls to the implementation contract. Additionally, users' contract wallet data is stored in the proxy contract.
 
-### SoulWallet
+### SmartWallet
 "SoulWallet" is the implementation contract. It is responsible for the core logic of the wallet
 + Using diamond storage pattern to store the data. All contract data is stored in specific slots in the contract. This approach has the advantage of making it easier to upgrade the logic contract in the future while avoiding data conflicts in slots compare the default contract storage from slot 0.
 + Guardian management.
