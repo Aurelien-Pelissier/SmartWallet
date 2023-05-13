@@ -5,24 +5,24 @@ pragma solidity ^0.8.17;
 /* solhint-disable no-inline-assembly */
 /* solhint-disable reason-string */
 
-import "./SoulWalletProxy.sol";
-import "./SoulWallet.sol";
+import "./SmartWalletProxy.sol";
+import "./SmartWallet.sol";
 import "./interfaces/ICreate2Deployer.sol";
 
 /**
- * @author  soulwallet team.
- * @title   A factory contract to create soul wallet.
+ * @author  smartwallet team.
+ * @title   A factory contract to create smart wallet.
  * @dev     it is called by the entrypoint which call the "initCode" factory to create and return the sender wallet address.
  * @notice  .
  */
 
-contract SoulWalletFactory {
+contract SmartWalletFactory {
     address public immutable walletImpl;
     address public immutable singletonFactory;
     string public constant VERSION = "0.0.1";
     mapping(address => bool) public isWalletActive;
 
-    event SoulWalletCreated(
+    event SmartWalletCreated(
         address indexed _proxy,
         address indexed _owner,
         address indexed _implementation,

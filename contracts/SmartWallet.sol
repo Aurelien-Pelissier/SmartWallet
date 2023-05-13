@@ -24,7 +24,7 @@ import "./utils/upgradeable/Initializable.sol";
  * @notice  .
  */
 
-contract SoulWallet is
+contract SmartWallet is
     BaseAccount,
     Initializable,
     GuardianControl,
