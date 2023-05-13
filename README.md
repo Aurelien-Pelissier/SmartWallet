@@ -59,3 +59,6 @@ The developers will not be liable for any damages or losses, whether direct, ind
 * <a href='https://eips.ethereum.org/EIPS/eip-4337'>ERC-4337: Account Abstraction Using Alt Mempool</a>
 * <a href='https://github.com/eth-infinitism/account-abstraction'>Infinitism account abstraction contract</a>
 * <a href='https://github.com/safe-global/safe-contracts'>Gnosis Safe Contracts</a>
+* <a href='https://github.com/proofofsoulprotocol/soul-wallet-contract'>Soul Wallet Contracts</a>
+
+
